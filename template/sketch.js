@@ -1,5 +1,7 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(600, 400);
+  canvas.parent('sketch-container');
+
   textSize(32);
   textAlign(CENTER, CENTER);
 }
