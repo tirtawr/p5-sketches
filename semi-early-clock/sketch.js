@@ -52,7 +52,7 @@ function draw() {
   currentHourInTweleveHourFormat = getHourInTweleveHourFormat(currentSecondOfDay)
   currentHour = getHour(currentSecondOfDay)
   if (currentRealMinute != lastCurrentRealMinute) {
-    currentMinute = Math.floor(getMinute(currentSecondOfDay) + random(-10, 10))
+    currentMinute = Math.floor(getMinute(currentSecondOfDay) + random(0, 10))
   }
   currentSecond = getSecond(currentSecondOfDay)
   lastCurrentRealMinute = currentRealMinute
